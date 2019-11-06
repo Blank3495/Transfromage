@@ -2,7 +2,7 @@
 Private functions were created in the Client class because their use could compromise the functionalities of the API.
 
 ---
->### closeAll ( self )
+>### disconnect ( self )
 >| Parameter | Type | Required | Description |
 >| :-: | :-: | :-: | - |
 >| self | `client` | ✔ | A Client object. |
