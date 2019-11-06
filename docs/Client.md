@@ -111,8 +111,8 @@
 >![/!\\](https://i.imgur.com/HQ188PK.png) The method does not handle the Café's cooldown system.
 >
 ---
->### client:disconnect(  )
->Forces the private function [disconnect](Internal/client.md#closeall-self--) to be called.
+>### client:disconnect (  )
+>Forces the private function [disconnect](Internal/client.md#disconnect--self-) to be called.
 >
 >**Returns:**
 >
