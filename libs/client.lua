@@ -1895,7 +1895,7 @@ client.connect = function(self, userName, userPassword, startRoom, timeout)
 end
 --[[@
 	@name disconnect
-	@desc Forces the private function @see closeAll to be called. (Ends the connections)
+	@desc Forces the private function @see disconnect to be called. (Ends the connections)
 	@returns boolean Whether the Connection objects can be destroyed or not.
 ]]
 client.disconnect = function(self)
