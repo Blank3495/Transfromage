@@ -63,15 +63,7 @@
 >Sets the account's whisper state.
 >
 ---
->### client:closeAll (  )
->Forces the private function [closeAll](Internal/client.md#closeall-self--) to be called.
->
->**Returns:**
->
->| Type | Description |
->| :-: | - |
->| `boolean` | Whether the Connection objects can be destroyed or not. |
----
+
 >### client:chatWho ( chatName )
 >| Parameter | Type | Required | Description |
 >| :-: | :-: | :-: | - |
@@ -118,6 +110,15 @@
 >Creates a Café topic.<br>
 >![/!\\](https://i.imgur.com/HQ188PK.png) The method does not handle the Café's cooldown system.
 >
+---
+>### client:disconnect(  )
+>Forces the private function [disconnect](Internal/client.md#closeall-self--) to be called.
+>
+>**Returns:**
+>
+>| Type | Description |
+>| :-: | - |
+>| `boolean` | Whether the Connection objects can be destroyed or not. |
 ---
 >### client:emit ( eventName, ... )
 >| Parameter | Type | Required | Description |
